@@ -24,6 +24,8 @@ alias .4='cd ../../../../'                  # Go back 4 directory levels
 alias .5='cd ../../../../../'               # Go back 5 directory levels
 alias .6='cd ../../../../../../'            # Go back 6 directory levels
 alias l="ls -las"                           # List down all directory and hidden directory with size and permission
+alias w="which"                             # Find directory of specific command line
+alias e="echo"                              # Display a text into the console
 
 #   -----------------------------
 #   2. Git Command Lines
