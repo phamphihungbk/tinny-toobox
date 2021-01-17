@@ -20,6 +20,10 @@ Here the the list.
   -less file1	        View and paginate file1
   -head file1	        Show first 10 lines of file1
   -tail file1	        Show last 10 lines of file1
+  -touch	            Create a new blank file
+  -diff	                Compare difference among 2 files
+  -wget	                Download a particular file
+  -curl	                Retrieve information of a source with given URL
 
   System Commands:
 
@@ -45,5 +49,6 @@ Here the the list.
   -history              History of list used commands
   -apropos              Help to find other command line
   -free	                Show memory and swap usage
+  -kill	                Kill process with given PID (Process ID)
 "
 }
