@@ -8,7 +8,34 @@
 #  2.  Git Command Lines
 #
 #  ---------------------------------------------------------------------------
+helper() {
+  echo "\
+    List alias commands:
 
+     r : "rm -rf"
+     ch : "chmod"
+     t : 'touch'
+     c : 'clear'
+     .~ : "cd ~"
+     .1 : 'cd ../'
+     .2 : 'cd ../../'
+     .3 : 'cd ../../../'
+     .4 : 'cd ../../../../'
+     .5 : 'cd ../../../../../'
+     .6 : 'cd ../../../../../../'
+     l : "ls -las"
+     w : "which"
+     e : "echo"
+    gc : "git clone"
+    gs : "git status"
+    glo : "git pull origin"
+    gpo : "git push origin"
+    gc : "git commit"
+    ga : "git add"
+    grb : "git rebase"
+    gr : "git rm"
+"
+}
 #   -----------------------------
 #   1. Linux Command Lines
 #   -----------------------------
