@@ -27,6 +27,7 @@ Here the the list.
 
   System Commands:
 
+  -df -h	            Show disk space with option h(readable for human)
   -date	                Show system date
   -uptime	            Show system uptime
   -whoami	            Show your username
