@@ -12,7 +12,8 @@ helper() {
   echo "\
     List alias commands:
 
-     r : "rm -rf"
+     rfolder : "rm -rf"
+     rfile : "rm"
      ch : "chmod"
      t : 'touch'
      c : 'clear'
@@ -26,14 +27,15 @@ helper() {
      l : "ls -las"
      w : "which"
      e : "echo"
-    gc : "git clone"
-    gs : "git status"
-    glo : "git pull origin"
-    gpo : "git push origin"
-    gc : "git commit"
-    ga : "git add"
-    grb : "git rebase"
-    gr : "git rm"
+    gclone : "git clone"
+    gstatus : "git status"
+    gpullo : "git pull origin"
+    gpusho : "git push origin"
+    gcommit : "git commit"
+    gadd : "git add"
+    grebase : "git rebase"
+    gremove : "git rm"
+    gcheckout : "git checkout"
 "
 }
 #   -----------------------------
