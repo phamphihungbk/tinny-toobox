@@ -27,7 +27,8 @@ Here the the list.
 
   System Commands:
 
-  -df -h	            Show disk space with option h(readable for human)
+  -df -h	            Show disk space of OS with option h(readable for human)
+  -du -sh	            Show disk space with option h(readable for human) and option s(summarize disk info)
   -date	                Show system date
   -uptime	            Show system uptime
   -whoami	            Show your username
