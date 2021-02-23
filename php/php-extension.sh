@@ -4,3 +4,5 @@ php -r "print_r(get_loaded_extensions());"
 php -i | grep extension_dir
 #Check php.ini location
 php -i | grep 'php.ini'
+#Check php-fpm log
+php -i | grep 'php-error.log'

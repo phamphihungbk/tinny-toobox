@@ -26,6 +26,7 @@ Here the the list.
   -diff	                Compare difference among 2 files
   -wget	                Download a particular file
   -curl	                Retrieve information of a source with given URL
+  -dpkg -i	            Manage tool on Debian or Ubuntu
 
   System Commands:
 
