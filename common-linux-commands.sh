@@ -27,6 +27,7 @@ Here the the list.
   -wget	                Download a particular file
   -curl	                Retrieve information of a source with given URL
   -dpkg -i	            Manage tool on Debian or Ubuntu
+  -man                  Show user manual of the given command
 
   System Commands:
 
