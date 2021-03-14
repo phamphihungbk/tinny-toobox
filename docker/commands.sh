@@ -6,3 +6,5 @@ docker run --name "image of instance" -d "name image"
 docker tag local_image remote_image
 #Push image to remote server
 docker push image_name
+#Copy file from instance to outside
+docker cp "id of container":/path/inside/instance /path/outside/
