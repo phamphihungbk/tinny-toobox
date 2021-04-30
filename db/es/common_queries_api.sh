@@ -16,3 +16,17 @@ GET /my-index-000001/_search
     }
   }
 }
+
+# Using terms to query bunch of data
+GET /my-index-000001/_search
+{
+  "query": {
+    "bool": {
+      "must": {
+        "terms": {
+          "url" : ["url1", "url2"]
+        }
+      }
+    }
+  }
+}
