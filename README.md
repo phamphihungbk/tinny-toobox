@@ -1,6 +1,6 @@
 ### Tinny Toolbox
 
-It contain all commands that used while programming. I will update it when suddenly find out something new.
+Contains my toys
 
 - aws
 - common sql statements
